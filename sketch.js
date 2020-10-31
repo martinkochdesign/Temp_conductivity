@@ -8,7 +8,8 @@ let dist=[350,620,880,1150];
 let points = [];
 
 function preload(){
-table = loadTable('assets/Temp.csv', 'csv', 'header');
+//table = loadTable('assets/Temp.csv', 'csv', 'header');
+table = loadTable('https://raw.githubusercontent.com/martinkochdesign/Temp_conductivity/main/assets/Temp.csv','csv', 'header');
 }
 
 function setup() {
