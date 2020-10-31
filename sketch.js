@@ -9,7 +9,7 @@ let points = [];
 
 function preload(){
 //table = loadTable('assets/Temp.csv', 'csv', 'header');
-table = loadTable('/testicles/Temp.csv','csv', 'header');
+table = loadTable('/Temp_conductivity/Temp.csv','csv', 'header');
 }
 
 function setup() {
