@@ -42,7 +42,7 @@ function draw() {
     noStroke();
     fill(255, 255, 255);
     textSize(24);
-    text("Distance",width-xoff-30, height-yoff+25);
+    text("Distance",width-xoff-30, height-yoff+40);
     // get data
     let row = slider.value();;
 
