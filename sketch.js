@@ -4,7 +4,9 @@
 const xoff = 100;
 const yoff = 100;
 
-let dist=[350,620,880,1150];
+let distoff=250;
+let dist=[350-250,620-250,880-250,1150-250];
+
 let points = [];
 
 function preload(){
