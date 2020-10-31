@@ -9,7 +9,7 @@ let points = [];
 
 function preload(){
 //table = loadTable('assets/Temp.csv', 'csv', 'header');
-table = loadTable('./assets/Temp.csv','csv', 'header');
+table = loadTable('/assets/Temp.csv','csv', 'header');
 }
 
 function setup() {
