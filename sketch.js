@@ -49,7 +49,7 @@ function draw() {
     
     //get points and scale
     for (let i=0; i<4; i++){
-        points[i]=createVector(map(dist[i],0,1500,xoff,width-xoff),map(table.get(row,i+1),0,100,height-yoff,yoff))
+        points[i]=createVector(map(dist[i],0,1000,xoff,width-xoff),map(table.get(row,i+1),0,100,height-yoff,yoff))
     }
     
     noStroke();
